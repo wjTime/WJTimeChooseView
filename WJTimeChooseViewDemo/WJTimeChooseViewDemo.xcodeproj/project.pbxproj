@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69E5A5F01D39CA5D00AF2A64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E5A5EF1D39CA5D00AF2A64 /* main.m */; };
+		69E5A5F31D39CA5D00AF2A64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E5A5F21D39CA5D00AF2A64 /* AppDelegate.m */; };
+		69E5A5F61D39CA5D00AF2A64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E5A5F51D39CA5D00AF2A64 /* ViewController.m */; };
+		69E5A5F91D39CA5D00AF2A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E5A5F71D39CA5D00AF2A64 /* Main.storyboard */; };
+		69E5A5FB1D39CA5D00AF2A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E5A5FA1D39CA5D00AF2A64 /* Assets.xcassets */; };
+		69E5A5FE1D39CA5D00AF2A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E5A5FC1D39CA5D00AF2A64 /* LaunchScreen.storyboard */; };
+		69E5A6091D39CA5D00AF2A64 /* WJTimeChooseViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E5A6081D39CA5D00AF2A64 /* WJTimeChooseViewDemoTests.m */; };
+		69E5A6141D39CA5D00AF2A64 /* WJTimeChooseViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E5A6131D39CA5D00AF2A64 /* WJTimeChooseViewDemoUITests.m */; };
+		69E5A6271D39CBDE00AF2A64 /* WJTimeChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E5A6261D39CBDE00AF2A64 /* WJTimeChooseView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69E5A6051D39CA5D00AF2A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69E5A5E31D39CA5D00AF2A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69E5A5EA1D39CA5D00AF2A64;
+			remoteInfo = WJTimeChooseViewDemo;
+		};
+		69E5A6101D39CA5D00AF2A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69E5A5E31D39CA5D00AF2A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69E5A5EA1D39CA5D00AF2A64;
+			remoteInfo = WJTimeChooseViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69E5A5EB1D39CA5D00AF2A64 /* WJTimeChooseViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJTimeChooseViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E5A5EF1D39CA5D00AF2A64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69E5A5F11D39CA5D00AF2A64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69E5A5F21D39CA5D00AF2A64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69E5A5F41D39CA5D00AF2A64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69E5A5F51D39CA5D00AF2A64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69E5A5F81D39CA5D00AF2A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69E5A5FA1D39CA5D00AF2A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69E5A5FD1D39CA5D00AF2A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69E5A5FF1D39CA5D00AF2A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69E5A6041D39CA5D00AF2A64 /* WJTimeChooseViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJTimeChooseViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E5A6081D39CA5D00AF2A64 /* WJTimeChooseViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJTimeChooseViewDemoTests.m; sourceTree = "<group>"; };
+		69E5A60A1D39CA5D00AF2A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69E5A60F1D39CA5D00AF2A64 /* WJTimeChooseViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJTimeChooseViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E5A6131D39CA5D00AF2A64 /* WJTimeChooseViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJTimeChooseViewDemoUITests.m; sourceTree = "<group>"; };
+		69E5A6151D39CA5D00AF2A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69E5A6251D39CBDE00AF2A64 /* WJTimeChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTimeChooseView.h; sourceTree = "<group>"; };
+		69E5A6261D39CBDE00AF2A64 /* WJTimeChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTimeChooseView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69E5A5E81D39CA5D00AF2A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E5A6011D39CA5D00AF2A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E5A60C1D39CA5D00AF2A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69E5A5E21D39CA5D00AF2A64 = {
+			isa = PBXGroup;
+			children = (
+				69E5A6211D39CA7A00AF2A64 /* WJTimeChooseView */,
+				69E5A5ED1D39CA5D00AF2A64 /* WJTimeChooseViewDemo */,
+				69E5A6071D39CA5D00AF2A64 /* WJTimeChooseViewDemoTests */,
+				69E5A6121D39CA5D00AF2A64 /* WJTimeChooseViewDemoUITests */,
+				69E5A5EC1D39CA5D00AF2A64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69E5A5EC1D39CA5D00AF2A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69E5A5EB1D39CA5D00AF2A64 /* WJTimeChooseViewDemo.app */,
+				69E5A6041D39CA5D00AF2A64 /* WJTimeChooseViewDemoTests.xctest */,
+				69E5A60F1D39CA5D00AF2A64 /* WJTimeChooseViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69E5A5ED1D39CA5D00AF2A64 /* WJTimeChooseViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				69E5A5F11D39CA5D00AF2A64 /* AppDelegate.h */,
+				69E5A5F21D39CA5D00AF2A64 /* AppDelegate.m */,
+				69E5A5F41D39CA5D00AF2A64 /* ViewController.h */,
+				69E5A5F51D39CA5D00AF2A64 /* ViewController.m */,
+				69E5A5F71D39CA5D00AF2A64 /* Main.storyboard */,
+				69E5A5FA1D39CA5D00AF2A64 /* Assets.xcassets */,
+				69E5A5FC1D39CA5D00AF2A64 /* LaunchScreen.storyboard */,
+				69E5A5FF1D39CA5D00AF2A64 /* Info.plist */,
+				69E5A5EE1D39CA5D00AF2A64 /* Supporting Files */,
+			);
+			path = WJTimeChooseViewDemo;
+			sourceTree = "<group>";
+		};
+		69E5A5EE1D39CA5D00AF2A64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69E5A5EF1D39CA5D00AF2A64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69E5A6071D39CA5D00AF2A64 /* WJTimeChooseViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				69E5A6081D39CA5D00AF2A64 /* WJTimeChooseViewDemoTests.m */,
+				69E5A60A1D39CA5D00AF2A64 /* Info.plist */,
+			);
+			path = WJTimeChooseViewDemoTests;
+			sourceTree = "<group>";
+		};
+		69E5A6121D39CA5D00AF2A64 /* WJTimeChooseViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69E5A6131D39CA5D00AF2A64 /* WJTimeChooseViewDemoUITests.m */,
+				69E5A6151D39CA5D00AF2A64 /* Info.plist */,
+			);
+			path = WJTimeChooseViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		69E5A6211D39CA7A00AF2A64 /* WJTimeChooseView */ = {
+			isa = PBXGroup;
+			children = (
+				69E5A6251D39CBDE00AF2A64 /* WJTimeChooseView.h */,
+				69E5A6261D39CBDE00AF2A64 /* WJTimeChooseView.m */,
+			);
+			path = WJTimeChooseView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69E5A5EA1D39CA5D00AF2A64 /* WJTimeChooseViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E5A6181D39CA5D00AF2A64 /* Build configuration list for PBXNativeTarget "WJTimeChooseViewDemo" */;
+			buildPhases = (
+				69E5A5E71D39CA5D00AF2A64 /* Sources */,
+				69E5A5E81D39CA5D00AF2A64 /* Frameworks */,
+				69E5A5E91D39CA5D00AF2A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJTimeChooseViewDemo;
+			productName = WJTimeChooseViewDemo;
+			productReference = 69E5A5EB1D39CA5D00AF2A64 /* WJTimeChooseViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69E5A6031D39CA5D00AF2A64 /* WJTimeChooseViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E5A61B1D39CA5D00AF2A64 /* Build configuration list for PBXNativeTarget "WJTimeChooseViewDemoTests" */;
+			buildPhases = (
+				69E5A6001D39CA5D00AF2A64 /* Sources */,
+				69E5A6011D39CA5D00AF2A64 /* Frameworks */,
+				69E5A6021D39CA5D00AF2A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69E5A6061D39CA5D00AF2A64 /* PBXTargetDependency */,
+			);
+			name = WJTimeChooseViewDemoTests;
+			productName = WJTimeChooseViewDemoTests;
+			productReference = 69E5A6041D39CA5D00AF2A64 /* WJTimeChooseViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69E5A60E1D39CA5D00AF2A64 /* WJTimeChooseViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E5A61E1D39CA5D00AF2A64 /* Build configuration list for PBXNativeTarget "WJTimeChooseViewDemoUITests" */;
+			buildPhases = (
+				69E5A60B1D39CA5D00AF2A64 /* Sources */,
+				69E5A60C1D39CA5D00AF2A64 /* Frameworks */,
+				69E5A60D1D39CA5D00AF2A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69E5A6111D39CA5D00AF2A64 /* PBXTargetDependency */,
+			);
+			name = WJTimeChooseViewDemoUITests;
+			productName = WJTimeChooseViewDemoUITests;
+			productReference = 69E5A60F1D39CA5D00AF2A64 /* WJTimeChooseViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69E5A5E31D39CA5D00AF2A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = musicTime;
+				TargetAttributes = {
+					69E5A5EA1D39CA5D00AF2A64 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					69E5A6031D39CA5D00AF2A64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 69E5A5EA1D39CA5D00AF2A64;
+					};
+					69E5A60E1D39CA5D00AF2A64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 69E5A5EA1D39CA5D00AF2A64;
+					};
+				};
+			};
+			buildConfigurationList = 69E5A5E61D39CA5D00AF2A64 /* Build configuration list for PBXProject "WJTimeChooseViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69E5A5E21D39CA5D00AF2A64;
+			productRefGroup = 69E5A5EC1D39CA5D00AF2A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69E5A5EA1D39CA5D00AF2A64 /* WJTimeChooseViewDemo */,
+				69E5A6031D39CA5D00AF2A64 /* WJTimeChooseViewDemoTests */,
+				69E5A60E1D39CA5D00AF2A64 /* WJTimeChooseViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69E5A5E91D39CA5D00AF2A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E5A5FE1D39CA5D00AF2A64 /* LaunchScreen.storyboard in Resources */,
+				69E5A5FB1D39CA5D00AF2A64 /* Assets.xcassets in Resources */,
+				69E5A5F91D39CA5D00AF2A64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E5A6021D39CA5D00AF2A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E5A60D1D39CA5D00AF2A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69E5A5E71D39CA5D00AF2A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E5A5F61D39CA5D00AF2A64 /* ViewController.m in Sources */,
+				69E5A6271D39CBDE00AF2A64 /* WJTimeChooseView.m in Sources */,
+				69E5A5F31D39CA5D00AF2A64 /* AppDelegate.m in Sources */,
+				69E5A5F01D39CA5D00AF2A64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E5A6001D39CA5D00AF2A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E5A6091D39CA5D00AF2A64 /* WJTimeChooseViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E5A60B1D39CA5D00AF2A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E5A6141D39CA5D00AF2A64 /* WJTimeChooseViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69E5A6061D39CA5D00AF2A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69E5A5EA1D39CA5D00AF2A64 /* WJTimeChooseViewDemo */;
+			targetProxy = 69E5A6051D39CA5D00AF2A64 /* PBXContainerItemProxy */;
+		};
+		69E5A6111D39CA5D00AF2A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69E5A5EA1D39CA5D00AF2A64 /* WJTimeChooseViewDemo */;
+			targetProxy = 69E5A6101D39CA5D00AF2A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69E5A5F71D39CA5D00AF2A64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69E5A5F81D39CA5D00AF2A64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69E5A5FC1D39CA5D00AF2A64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69E5A5FD1D39CA5D00AF2A64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69E5A6161D39CA5D00AF2A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69E5A6171D39CA5D00AF2A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69E5A6191D39CA5D00AF2A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJTimeChooseViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = musicTime.WJTimeChooseViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69E5A61A1D39CA5D00AF2A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJTimeChooseViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = musicTime.WJTimeChooseViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69E5A61C1D39CA5D00AF2A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WJTimeChooseViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = musicTime.WJTimeChooseViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJTimeChooseViewDemo.app/WJTimeChooseViewDemo";
+			};
+			name = Debug;
+		};
+		69E5A61D1D39CA5D00AF2A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WJTimeChooseViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = musicTime.WJTimeChooseViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJTimeChooseViewDemo.app/WJTimeChooseViewDemo";
+			};
+			name = Release;
+		};
+		69E5A61F1D39CA5D00AF2A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WJTimeChooseViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = musicTime.WJTimeChooseViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJTimeChooseViewDemo;
+			};
+			name = Debug;
+		};
+		69E5A6201D39CA5D00AF2A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WJTimeChooseViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = musicTime.WJTimeChooseViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJTimeChooseViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69E5A5E61D39CA5D00AF2A64 /* Build configuration list for PBXProject "WJTimeChooseViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E5A6161D39CA5D00AF2A64 /* Debug */,
+				69E5A6171D39CA5D00AF2A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E5A6181D39CA5D00AF2A64 /* Build configuration list for PBXNativeTarget "WJTimeChooseViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E5A6191D39CA5D00AF2A64 /* Debug */,
+				69E5A61A1D39CA5D00AF2A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E5A61B1D39CA5D00AF2A64 /* Build configuration list for PBXNativeTarget "WJTimeChooseViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E5A61C1D39CA5D00AF2A64 /* Debug */,
+				69E5A61D1D39CA5D00AF2A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E5A61E1D39CA5D00AF2A64 /* Build configuration list for PBXNativeTarget "WJTimeChooseViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E5A61F1D39CA5D00AF2A64 /* Debug */,
+				69E5A6201D39CA5D00AF2A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69E5A5E31D39CA5D00AF2A64 /* Project object */;
+}
